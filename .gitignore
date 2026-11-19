@@ -1,0 +1,23 @@
+
+# Laravel Backend
+bookstore-api/.env
+bookstore-api/.env.*
+!bookstore-api/.env.example
+bookstore-api/vendor/
+
+# Laravel generated files
+bookstore-api/storage/logs/*
+bookstore-api/storage/framework/cache/*
+bookstore-api/storage/framework/sessions/*
+bookstore-api/storage/framework/views/*
+
+# React Frontend
+bookstore-frontend/node_modules/
+bookstore-frontend/dist/
+bookstore-frontend/.env
+bookstore-frontend/.env.*
+!bookstore-frontend/.env.example
+
+# General
+.DS_Store
+Thumbs.db
