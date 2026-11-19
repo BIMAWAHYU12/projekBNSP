@@ -1,6 +1,7 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import fotoBima from './assets/images/gambar.png';
 
 import {
   BrowserRouter,
@@ -1807,7 +1808,7 @@ function Team() {
           <div className="col-md-6 col-lg-4">
             <div className="card border-0 shadow-sm h-100 text-center p-4">
               <img
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80"
+                src={fotoBima}
                 alt="Bima"
                 className="rounded-circle mx-auto mb-3 shadow"
                 style={{ width: 130, height: 130, objectFit: "cover" }}
